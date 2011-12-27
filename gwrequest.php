@@ -8,8 +8,6 @@ jimport('joomla.application.cli');
  
 class GWRequest extends JCli
 {
- 
-	//Get Latest Tweet
 	function getGWData( $domain, $pass )
 	{
     	$url = $domain."/index.php?option=com_gwerp&view=invoices&format=json&secretkey=".$pass;
