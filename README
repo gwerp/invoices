@@ -1,0 +1,5 @@
+A simple way to request the GWErp invoices with JSon via cli.
+
+Execute the gwrequest.php file via cli and answer two basic questions, the domain where you have installed your GWErp component and then the secretkey to validate the request in the remote server.
+
+The secretkey must be entered in the configuration parameter of your GWErp component in the integration settings tab.
